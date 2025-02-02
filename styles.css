@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #fff5f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #ff66a3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+.navbar .logo {
+    height: 50px;
+    width: auto;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #ff66a3;
+}
+.menu-item {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.cupcake-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .cupcake-image {
+            width: 40%;
+            border-radius: 10px;
+        }
+        .cupcake-info {
+            width: 60%;
+            text-align: left;
+        }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
