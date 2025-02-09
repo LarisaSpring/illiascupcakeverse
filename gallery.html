@@ -17,14 +17,29 @@
     <div class="container">
         <h1>Gallery</h1>
         <div class="gallery">
-            <img src="img/cupcake1.jpg" alt="Cupcake 1">
-            <img src="img/cupcake2.jpg" alt="Cupcake 2">
-            <img src="img/cupcake3.jpg" alt="Cupcake 3">
-            <img src="img/cupcake4.jpg" alt="Cupcake 4">
-            <img src="img/cupcake5.jpg" alt="Cupcake 5">
-            <img src="img/cupcake6.jpg" alt="Cupcake 6">
-            <img src="img/cupcake7.jpg" alt="Cupcake 7">
+            <img src="img/cupcake1.jpg" alt="Cupcake 1" onclick="openLightbox(this)">
+            <img src="img/cupcake2.jpg" alt="Cupcake 2" onclick="openLightbox(this)">
+            <img src="img/cupcake3.jpg" alt="Cupcake 3" onclick="openLightbox(this)">
+            <img src="img/cupcake4.jpg" alt="Cupcake 4" onclick="openLightbox(this)">
+            <img src="img/cupcake5.jpg" alt="Cupcake 5" onclick="openLightbox(this)">
+            <img src="img/cupcake6.jpg" alt="Cupcake 6" onclick="openLightbox(this)">
+            <img src="img/cupcake7.jpg" alt="Cupcake 7" onclick="openLightbox(this)">
+        </div>
+    
+        <!-- Lightbox Container (Hidden by Default) -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <img id="lightbox-img">
         </div>
     </div>
+    <script>
+        function openLightbox(img) {
+            document.getElementById("lightbox").style.display = "flex";
+            document.getElementById("lightbox-img").src = img.src;
+        }
+    
+        function closeLightbox() {
+            document.getElementById("lightbox").style.display = "none";
+        }
+    </script>
 </body>
 </html>
