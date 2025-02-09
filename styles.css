@@ -71,12 +71,14 @@ ul {
     justify-content: center;
     gap: 15px;
     padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .gallery img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    width: 250px;  /* Set fixed width */
+    height: 250px; /* Set fixed height */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
     border-radius: 10px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
