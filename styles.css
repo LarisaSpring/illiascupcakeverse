@@ -110,3 +110,10 @@ ul {
     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
 }
 
+canvas {
+    display: block;
+    background: #222;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
